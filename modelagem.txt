@@ -1,0 +1,37 @@
+cliente:
+-> nome
+-> telefone
+-> email
+-> senha
+
+agenda:
+-> cliente_id
+-> servico_id
+-> horario_inicio
+
+serviço:
+-> barbeiro_id
+-> nome
+-> preco
+-> duracao
+
+barbeiro:
+-> barebearia_id
+-> nome,
+-> inicio_expediente,
+-> fim_expediente
+-> photo
+-> descricao
+
+barbearia:
+-> franquia_id
+-> endereco
+-> nome
+
+franquia:
+-> usuario_id
+-> nome
+
+usuario:
+-> email
+-> senha
